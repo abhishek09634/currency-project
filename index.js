@@ -2,7 +2,6 @@ const axios = require('axios');
 const PropertiesReader = require('properties-reader');
 const prop = PropertiesReader('application.properties');
 const express = require('express');
-var app = express();
 
 // const HTTP_PORT = 8000;
 // app.listen(HTTP_PORT, () => {
